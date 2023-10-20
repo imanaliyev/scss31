@@ -1,0 +1,309 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: grid;
+  place-items: center;
+}
+header nav {
+  height: 88px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav .start {
+  font-size: 20px;
+  font-weight: 500;
+}
+header nav .navtext {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  font-weight: 500;
+}
+header .head {
+  width: 745px;
+  height: 327px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+header .head h1 {
+  background-color: rgb(134, 134, 134);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 104px;
+  font-weight: 400;
+}
+header .head p {
+  font-size: 20px;
+  width: 489px;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(134, 134, 134);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+header .head .getstart {
+  width: 178px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: #64a19d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#first {
+  height: 100vh;
+  background-image: url();
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#first .container {
+  height: 100vh;
+  width: 70%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#first .container .text {
+  width: 708px;
+  height: 208px;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  color: white;
+}
+#first .container .text h2 {
+  font-size: 32px;
+}
+#first .container .text p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#first .container .text .bir {
+  color: #64a19d;
+  font-style: under;
+  text-decoration: underline;
+}
+#first .container img {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: absolute;
+  bottom: 0;
+}
+
+#second {
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#second .container {
+  width: 80%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 50px;
+}
+#second .container .box1 {
+  width: 65%;
+  height: 459px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#second .container .box1 .photo {
+  width: 696px;
+  height: 459px;
+}
+#second .container .box1 .photo img {
+  width: 696px;
+  height: 459px;
+}
+#second .container .box1 .txt {
+  flex-direction: column;
+  width: 348px;
+  height: 146px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-left: 20px;
+  gap: 10px;
+}
+#second .container .box1 .txt h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+#second .container .box1 .txt p {
+  font-size: 16px;
+  color: rgb(168, 168, 168);
+}
+#second .container .box2 {
+  width: 65%;
+  height: 759px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+}
+#second .container .box2 .box {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+#second .container .box2 .box h4 {
+  font-size: 24px;
+  color: white;
+}
+#second .container .box2 .box p {
+  font-size: 14.4px;
+  color: rgb(190, 190, 190);
+  padding: 30px;
+}
+#second .container .box2 .box img {
+  height: 100%;
+  object-fit: cover;
+}
+
+#third {
+  height: 100vh;
+  background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#third .container {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+#third .container .signup {
+  width: 848px;
+  height: 189px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+#third .container .signup .txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 20px;
+}
+#third .container .signup .txt i {
+  font-size: 32px;
+}
+#third .container .signup .txt p {
+  font-size: 32px;
+}
+#third .container .signup .form {
+  width: 713px;
+  height: 60px;
+  display: flex;
+  gap: 20px;
+}
+#third .container .signup .form input {
+  width: 613px;
+  height: 60px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: 0;
+}
+#third .container .signup .form input::placeholder {
+  font-size: 19px;
+}
+#third .container .signup .form .buton {
+  width: 187px;
+  height: 60px;
+  background-color: #64a19d;
+  color: rgb(211, 211, 211);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+#third .container .cards {
+  margin-top: 100px;
+  padding: 0 20px;
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 30px;
+}
+#third .container .cards .card {
+  width: 376px;
+  height: 201px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#third .container .cards .card i {
+  color: #64a19d;
+}
+#third .container .cards .card .line {
+  width: 50px;
+  height: 3px;
+  background-color: #64a19d;
+}/*# sourceMappingURL=main.css.map */

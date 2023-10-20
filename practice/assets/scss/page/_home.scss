@@ -1,0 +1,231 @@
+#first{
+    height: 100vh;
+    background-image: url();
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        height: 100vh;
+        width: 70%;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .text{
+            width: 708px;
+            height: 208px;
+            text-align: center;
+            flex-direction: column;
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            color: white;
+            h2{
+                font-size: 32px;
+                
+            }
+            p{
+                font-size: 16px;
+                color: rgba(255, 255, 255, 0.5) 
+                
+            }
+            .bir{
+                color: #64a19d;
+                font-style: under;
+                text-decoration: underline;
+            }
+        }
+        img{
+            height: 30%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            position: absolute;
+            bottom: 0;
+        }
+    }
+    
+}
+#second{
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    .container{
+        width: 80%;
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        gap: 50px;
+        .box1{
+            width: 65%;
+            height: 459px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .photo{
+                
+                width: 696px;
+                height: 459px;
+                img{
+                    width: 696px;
+                    height: 459px;
+                    
+                }
+            }
+            .txt{
+                flex-direction: column;
+                width: 348px;
+                height: 146px;
+                display: flex;
+                align-items: center;
+                justify-content: end;
+                padding-left: 20px;
+                gap: 10px;
+                h3{
+                    font-size: 24px;
+                    font-weight: 400;
+                }
+                p{
+                    font-size: 16px;
+                    color: rgb(168, 168, 168);
+                }
+            }
+        }
+        .box2{
+            width: 65%;
+            height: 759px;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            
+            .box{
+                background-color: black;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 30px;
+                h4{
+                    font-size: 24px;
+                    color: white;
+                }
+                p{
+                    font-size: 14.4px;
+                    color: rgb(190, 190, 190);
+                    padding: 30px;
+                }
+                img{
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+        }
+    }
+}
+#third{
+    height: 100vh;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        width: 70%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        .signup{
+            width: 848px;
+            height: 189px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            .txt{
+                display: flex;
+                flex-direction: column;
+                align-items:center ;
+                justify-content: center;
+                color: white;
+                gap: 20px;
+                i{
+                    font-size: 32px;
+                    
+                }
+                p{
+                    font-size: 32px;
+                }
+            }
+            .form{
+                width: 713px;
+                height: 60px;
+                display: flex;
+                gap: 20px;
+                input{
+                    width: 613px;
+                    height: 60px;
+                    padding-left: 20px;
+                    border-radius: 10px;
+                    border: 0;
+                    &::placeholder{
+                        font-size: 19px;
+                    }
+                    
+                    
+                }
+                .buton{
+                    width: 187px;
+                    height: 60px;
+                    background-color:#64a19d;
+                    color: rgb(211, 211, 211);
+                    border-radius: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-weight: 400;
+                }
+            }
+        }
+        .cards{
+            margin-top: 100px;
+            padding: 0 20px;
+            max-width: 100%;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            gap: 30px;
+            
+            .card{
+                width: 376px;
+                height: 201px;
+                background-color: white;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 10px;
+                i{
+                    color: #64a19d;
+                }
+                .line{
+                    width: 50px;
+                    height: 3px;
+                    background-color:#64a19d;
+                }
+            }
+        }
+    }
+}
